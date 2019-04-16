@@ -15,6 +15,14 @@ npm install
 ## Configuration
 
 ```bash
+
+Create a .env file in the root of your project and add the next values:
+
+NODE_ENV=development
+#Env variables
+URL_ENDPOINT="https://jsonplaceholder.typicode.com"
+
+TestRail Integration
 First of all you need to have a Wizeline TestRail Account 
 If you don't please contact rick.vega@wizeline.com to get an account.
 
