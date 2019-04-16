@@ -1,0 +1,5 @@
+mocha --opts mocha-testrail.opts build/test
+--recursive
+--reporter mocha-testrail-reporter
+--reporter-options domain=wizeline.testrail.net,username=,password=,projectId=,suiteId=1
+--no-exit
